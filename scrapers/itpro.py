@@ -70,7 +70,7 @@ def scrape_itpro(limit=50):
             "title": (j.get("title") or "").strip(),
             "company": (j.get("company") or "ITPro Employer").strip(),
             "logo": "",
-            "url": f'https://itpro.lk/jobs/{job_id}',
+            "url": f'https://itpro.lk/job/{job_id}',
             "location":  loc_code,
             "job_type": type_code,
             "salary": "Not specified",
